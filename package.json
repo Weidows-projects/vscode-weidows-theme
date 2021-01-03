@@ -1,0 +1,32 @@
+{
+  "name": "theme-weidows",
+  "displayName": "Weidows Design theme",
+  "description": "🤣 A dark theme with colorful mindstorm.",
+  "version": "1.0.0",
+  "publisher": "Weidows",
+  "repository": "https://github.com/Weidows/vscode-weidows-theme",
+  "engines": {
+    "vscode": "^1.52.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "deeppink",
+    "aqua",
+    "accessible",
+    "theme",
+    "Weidows",
+    "CyberPunk"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Weidows",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ui-color.json"
+      }
+    ]
+  },
+  "icon": "icon.jpg"
+}
