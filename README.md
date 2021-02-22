@@ -3,7 +3,7 @@
  * @Author: Weidows
  * @Date: 2021-01-03 01:36:18
  * @LastEditors: Weidows
- * @LastEditTime: 2021-01-03 15:11:39
+ * @LastEditTime: 2021-02-22 23:32:49
  * @FilePath: \vscode-weidows-theme\README.md
  * @Description:
  * @!: *********************************************************************
@@ -28,7 +28,7 @@
 
 # `UI`
 
-- ![UI.jpg](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/UI.jpg)
+- ![UI.jpg](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/UI.jpg)
 
 ---
 
@@ -36,36 +36,36 @@
 
 ## cpp
 
-- ![cpp.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/cpp.png)
+- ![cpp.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/cpp.png)
 
 ## css
 
-- ![css.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/css.png)
+- ![css.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/css.png)
 
 ## html
 
-- ![html.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/html.png)
+- ![html.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/html.png)
 
 ## java
 
-- ![java.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/java.png)
+- ![java.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/java.png)
 
 ## js
 
-- ![js.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/js.png)
+- ![js.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/js.png)
 
 ## json
 
-- ![json.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/json.png)
+- ![json.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/json.png)
 
 ## markdown
 
-- ![markdown.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/markdown.png)
+- ![markdown.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/markdown.png)
 
 ## txt
 
-- ![txt.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/txt.png)
+- ![txt.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/txt.png)
 
 ## yml
 
-- ![yml.png](https://github.com/Weidows/vscode-weidows-theme/raw/main/images/yml.png)
+- ![yml.png](https://cdn.jsdelivr.net/gh/Weidows/vscode-weidows-theme@main/images/yml.png)
