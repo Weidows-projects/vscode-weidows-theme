@@ -29,5 +29,12 @@
       }
     ]
   },
-  "icon": "icon.png"
+  "icon": "icon.png",
+  "dependencies": {
+    "vsce": "1.88.0"
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  }
 }
