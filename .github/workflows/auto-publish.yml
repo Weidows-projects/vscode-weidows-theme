@@ -1,4 +1,5 @@
 name: auto-publish
+
 on:
   push:
     branches:
@@ -17,8 +18,8 @@ jobs:
           vsce publish -p ${{ github.token }}
 
       - name: Upload to release
-          uses: JasonEtco/upload-to-release@master
-          with:
-            args: \*.vsix
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        uses: JasonEtco/upload-to-release@master
+        with:
+          args: \*.vsix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
