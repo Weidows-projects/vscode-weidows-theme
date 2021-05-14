@@ -1,0 +1,25 @@
+name: 自动发布
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  auto-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v2
+
+      - name: My-Tasks
+        run: |
+          vsce publish -p ${{ github.token }}
+          vsce package
+
+     - name: Upload to release
+        uses: JasonEtco/upload-to-release@master
+        with:
+          args: \*.vsix
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

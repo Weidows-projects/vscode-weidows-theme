@@ -1,10 +1,10 @@
 {
   "name": "theme-weidows",
   "displayName": "Weidows Design theme",
-  "description": "🤣 A dark theme with colorful mindstorm.",
-  "version": "1.2.1",
+  "description": "🤣 A dark theme with colorful mindstorm. (一个饶有趣味色彩的主题)",
+  "version": "1.3.0",
   "publisher": "Weidows",
-  "repository": "https://github.com/Weidows/vscode-weidows-theme",
+  "repository": "https://github.com/Weidows-projects/vscode-weidows-theme",
   "engines": {
     "vscode": "^1.52.1"
   },
@@ -17,7 +17,8 @@
     "accessible",
     "theme",
     "Weidows",
-    "CyberPunk"
+    "CyberPunk",
+    "dark"
   ],
   "contributes": {
     "themes": [
@@ -28,5 +29,5 @@
       }
     ]
   },
-  "icon": "icon.jpg"
+  "icon": "icon.png"
 }
