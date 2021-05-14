@@ -29,9 +29,5 @@
       }
     ]
   },
-  "icon": "icon.png",
-  "scripts": {
-    "package": "vsce package",
-    "publish": "vsce publish"
-  }
+  "icon": "icon.png"
 }
