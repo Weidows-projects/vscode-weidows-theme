@@ -32,6 +32,6 @@
   "icon": "icon.png",
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish -p ${{ github.token }}"
+    "publish": "vsce publish"
   }
 }

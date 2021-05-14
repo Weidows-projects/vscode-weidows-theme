@@ -16,11 +16,11 @@ jobs:
         run: |
           npm install vsce
           npm run package
-          npm run publish
+          npm run publish -p ${{ github.token }}
 
       - name: Upload to release
         uses: JasonEtco/upload-to-release@master
         with:
-          args: \*.vsix
+          args: ./*.vsix
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
