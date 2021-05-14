@@ -17,12 +17,12 @@ jobs:
           npm install
           npm run package
 
-      - name: Upload to release
-        uses: JasonEtco/upload-to-release@master
-        with:
-          args: ./*.vsix
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Upload to release
+      #   uses: JasonEtco/upload-to-release@master
+      #   with:
+      #     args: ./*.vsix
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: lannonbr/vsce-action@master
         with:
