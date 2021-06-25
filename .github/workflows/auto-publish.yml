@@ -1,9 +1,11 @@
 name: auto-publish
 
 on:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
+  release:
+    types: [published]
 
 jobs:
   auto-publish:
