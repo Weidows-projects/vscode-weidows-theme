@@ -12,19 +12,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Clone repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@master
 
       - name: My-Tasks
         run: |
           npm install
           npm run package
-
-      # - name: Upload to release
-      #   uses: JasonEtco/upload-to-release@master
-      #   with:
-      #     args: ./*.vsix
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: lannonbr/vsce-action@master
         with:
