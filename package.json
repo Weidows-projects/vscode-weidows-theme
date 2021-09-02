@@ -30,11 +30,14 @@
     ]
   },
   "icon": "icon.png",
-  "dependencies": {
-    "vsce": "1.88.0"
+  "devDependencies": {
+    "vsce": "^1.96.3"
   },
   "scripts": {
     "package": "vsce package",
-    "publish": "vsce publish"
+    "publish": "vsce publish",
+    "major": "npm version major",
+    "minor": "npm version minor",
+    "patch": "npm version patch"
   }
 }
